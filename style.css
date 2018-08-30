@@ -394,7 +394,9 @@ Description: Creative Bootstrap4 Portfolio Template;
 }
 
 .portfolio img {
-    width: 100%;
+    /*width: 100%;*/
+    margin: auto;
+    display: block;
 }
 
 .portfolio {
@@ -417,6 +419,10 @@ Description: Creative Bootstrap4 Portfolio Template;
 .portfolio:hover:before,
 .portfolio:hover .portfolio-hover {
     opacity: 1;
+}
+
+#portfolio a {
+    color: #303030;
 }
 
 .portfolio-hover {
