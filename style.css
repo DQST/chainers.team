@@ -141,6 +141,10 @@ Description: Creative Bootstrap4 Portfolio Template;
     background: #fff;
 }
 
+.ht-dropdown > li a {
+    color: #384a85;
+}
+
 /* dropdown css start */
 .primary-menu-list > li ul.ht-dropdown.ht-dropdown {
     background: #fff;
