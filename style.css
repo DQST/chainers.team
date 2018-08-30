@@ -36,7 +36,7 @@ Description: Creative Bootstrap4 Portfolio Template;
 }
 
 .header-sticky.sticky {
-    background: #f2e283;
+    background: #fafafa;
     -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
     left: 0;
@@ -63,6 +63,7 @@ Description: Creative Bootstrap4 Portfolio Template;
 
 .sticky .primary-menu-list > li a {
     font-size: 14px;
+    color: #384a85;
 }
 
 .primary-menu-list > li {
@@ -71,7 +72,7 @@ Description: Creative Bootstrap4 Portfolio Template;
 }
 
 .primary-menu-list > li a {
-    color: #222;
+    color: white;
     display: block;
     font-size: 16px;
     font-weight: 600;
