@@ -116,7 +116,8 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
     .full-screen {
-        height: 80vh;
+        height: auto;
+        min-height: 501px;
     }
     .instagram-img li {
         -ms-flex-preferred-size: inherit;
@@ -262,7 +263,7 @@
 @media (max-width: 767px) {
     .full-screen {
         height: auto;
-        padding: 120px 0;
+        min-height: 272px;
     }
     .slider-text h5 {
         font-size: 20px;
@@ -357,6 +358,9 @@
     .pb-150,.contact-area {
         padding-bottom: 80px;
     }
+    .skill-area.pt-100 {
+        padding-top: 30px;
+    }
     .pt-120{
         padding-top: 50px;
     }
@@ -389,6 +393,9 @@
         margin-bottom: 15px;
     }
 
+    .header-logo-link-mobile {
+        visibility: hidden;
+    }
 }
 
 /*=============== Mobile Device ===============*/
