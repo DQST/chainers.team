@@ -393,11 +393,8 @@
         margin-bottom: 15px;
     }
 
-    #header-logo {
-        display: none;
-    }
-    .mean-bar {
-        top: 15px !important;
+    .header-logo-link-mobile {
+        visibility: hidden;
     }
 }
 

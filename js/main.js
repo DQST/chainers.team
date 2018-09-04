@@ -36,11 +36,13 @@ NOTE: main.js, All custom script and plugin activation script in this file.
     ------------------------------ */
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
-            $('.header-sticky').addClass("sticky");
-            $('#header-logo').attr('src', 'img/logo/footer-logo.png');
+            $('.header-sticky').addClass('sticky');
+            $('.header-logo').attr('src', 'img/logo/footer-logo.png');
+            $('.header-logo-link').removeClass('header-logo-link-mobile');
         } else {
-            $('.header-sticky').removeClass("sticky");
-            $('#header-logo').attr('src', 'img/logo/logo.png');
+            $('.header-sticky').removeClass('sticky');
+            $('.header-logo').attr('src', 'img/logo/logo.png');
+            $('.header-logo-link').addClass('header-logo-link-mobile');
         }
     });
 
