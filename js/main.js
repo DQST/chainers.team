@@ -37,8 +37,10 @@ NOTE: main.js, All custom script and plugin activation script in this file.
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
             $('.header-sticky').addClass("sticky");
+            $('#header-logo').attr('src', 'img/logo/footer-logo.png');
         } else {
             $('.header-sticky').removeClass("sticky");
+            $('#header-logo').attr('src', 'img/logo/logo.png');
         }
     });
 
